@@ -37,7 +37,7 @@
     "hexo-sliding-spoiler": "^1.2.1",
     "hexo-tag-dplayer": "^0.3.3",
     "hexo-theme-fluid": "^1.9.0",
-    "hexo-util": "^3.0.1",
+    "hexo-util": "^3.3.0",
     "moment": "^2.29.4",
     "nunjucks": "^3.2.3",
     "utils-merge": "^1.0.1"
