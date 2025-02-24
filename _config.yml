@@ -114,7 +114,7 @@ theme: fluid
 deploy:
   type: git
   repo: git@github.com:mimosadott/mimosadott.github.io.git
-  branch: master
+  branch: main
 
 math:
   engine: katex
