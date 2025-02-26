@@ -497,12 +497,12 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://s4.ax1x.com/2021/12/22/TQLWKU.png
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z4c8.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 100
+  banner_img_height: 80
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -520,7 +520,7 @@ index:
     # text: "Cease to struggle and you cease to live"
     # text: "人类文明的极限会收敛于零吗<br>我们存在的意义又是什么呢"
     # text: "If you are not scared of death,<br> How can you value life?"
-    text: "Light tomorrow with today!"
+    text: "THE WORLD IS YOURS."
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -573,8 +573,8 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://s4.ax1x.com/2021/12/22/TQOxyT.jpg
-  banner_img_height: 70
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z4c8.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
@@ -828,8 +828,8 @@ gitalk:
 # Based on LeanCloud
 # See: https://valine.js.org/
 valine:
-  appId: 7JWUOvcOubbTCSI8jHpuVSJ0-gzGzoHsz
-  appKey: 98rYU3iGXuuKPVyUjNYHGpr9
+  appId: LX609fClFLGCHVKosKbX4H3I-gzGzoHsz
+  appKey: QEIkLLN0S0SzL1W8C0QpZYaR
   placeholder: 说点什么
   path: window.location.pathname
   avatar: retro
@@ -913,8 +913,8 @@ cusdis:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://s4.ax1x.com/2021/12/22/TQOjS0.jpg
-  banner_img_height: 60
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z5jS.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
 
 
@@ -924,8 +924,8 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://s4.ax1x.com/2021/12/22/TQOvlV.jpg
-  banner_img_height: 60
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z5jS.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
 
   # 分类的排序字段，前面带减号是倒序，不带减号是正序
@@ -953,7 +953,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://s4.ax1x.com/2021/12/22/TQx1h9.jpg
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z5jS.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -970,10 +970,10 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://s4.ax1x.com/2021/12/22/TQXpmF.png
-  banner_img_height: 60
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z4c8.jpg
+  banner_img_height: 80
   banner_mask_alpha: 0.3
-  avatar: https://s4.ax1x.com/2021/12/22/TQX9w4.png
+  avatar: https://s21.ax1x.com/2025/02/26/pE3Z5jS.jpg
   name: "mjj"
   intro: "XJTUer"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
@@ -1018,23 +1018,17 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://s1.ax1x.com/2022/03/29/qywAxS.png
+  banner_img: https://s21.ax1x.com/2025/02/26/pE3Z5jS.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   # 友链的成员项
   # Member item of page
   items:
     - {
-      title: "Eipi15926",
-      intro: "Eipi溟溯的树洞",
-      link: "https://eipi15926.github.io/",
-      avatar: "https://s1.ax1x.com/2022/03/29/qyatlF.jpg"
-    }
-    - {
-      title: "ckl-ruby",
-      intro: "Ruby's Blog",
-      link: "https://ckl-ruby.xyz/",
-      avatar: "https://s1.ax1x.com/2022/03/29/qydMcD.jpg"
+      title: "wty-yy",
+      intro: "wty-yy",
+      link: "https://wty-yy.github.io/",
+      avatar: "https://s4.ax1x.com/2021/12/22/TQX9w4.png"
     }
     # - {
     #   title: "Fluid Repo",
