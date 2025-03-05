@@ -43,4 +43,8 @@ tags:
 只要满足「输入序列、输出序列」的目的，都可以统称为 Seq2Seq序列。
 
 **Encoder-Decoder模型：RNN/LSTM与GRU**
+RNN与LSTM内容参考CSDN博客[如何从RNN起步，一步一步通俗理解LSTM](https://blog.csdn.net/v_JULY_v/article/details/89894058)
 
+## 从Seq2Seq到Seq2Seq with Attention
+Encoder-Decoder的缺陷：当输入信息太长时，会丢失掉一些信息。
+Attention 模型的特点是 Eecoder 不再将整个输入序列编码为固定长度的「中间向量Ｃ」，而是编码成一个向量的序列(包含多个向量)。
